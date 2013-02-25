@@ -3,9 +3,10 @@
 /* End of import hide */
 /* GERAL */
 body{
+    background-color:#fff;
     .centraliza{
-    	width:;
-    	margin:0 auto;
+    	width:1000px;
+    	margin:0px auto;
     	}
     a, a:active, a:visited{
     	color:inherit;
@@ -21,10 +22,115 @@ body{
     }
 /* HEADER */
 #header{
-	}
+    background:url(../images/bg_header.png);
+    #topo{           
+        background:url(../images/bg_topo.png) no-repeat ;
+        width:1349px;
+        height:334px;  
+        .logo_top{
+            float:left;
+            margin-top:80px;
+            margin-left:200px;
+            }
+    }    
+    #menu{
+            background-color:#ed3237;
+            height:28px;
+            margin-top:-28px;
+        #menu_topo{
+            ul{    
+                width:700px;
+                float:left;
+                margin-left:160px;
+                margin-top:8px;
+                li{
+                    display:inline;  
+                    margin-left:20px;
+                }
+            }
+        } 
+    }
+}
 /* FOOTER */
 #footer{
-	}
-/* CONTEUDO */
+    background-color:#970105;
+    height:100px;
+    #texto_footer{
+        #texto{
+        color:#fff;
+        width:480px;
+        float:left;
+        margin-top:25px;
+        }
+    }
+    #direito{
+        #logo_telanto{
+            float:right;
+            margin-top:25px;
+            }
+        }
+}
+/* HOME */
 #content{
-	}
+    height:900px;
+    #lancamentos{
+        float:left;
+        margin-top:10px;
+        }          
+    .familia{
+        float:right;
+        margin-right:150px;
+        margin-top:20px;
+        }
+    #noticias{
+        float:left;
+        margin-left:50px;
+        .titulo{
+            font-size:15px;
+            font-family:"Times New Roman",Georgia,Serif;
+            }
+        hr{
+            width: 570px;
+            float:left;
+            margin-left:63px;  
+            margin-top:-10px;
+            height: 2px;
+        	background: #ed3237;
+            }
+    #area_noticias{
+        ul{
+            list-style-type:none;
+            li{
+                display:inline;
+                #img{
+                    border:3px solid ;
+                    padding:3px;
+                    border-color:#b8b8b8;
+                    width:170px;
+                    height:91px;
+                    float:left;
+                    margin-top:10px;
+                    }
+                #titulo{
+                    color: #ed3237;
+                    font-size: 20px;
+                    float:left;
+                    margin-top:10px;
+                    margin-left:20px;
+                    }
+                #data{
+                    float:left;
+                    margin-left:-200px;
+                    margin-top:40px;
+                    }
+                #prev_noticias{
+                    width:390px;
+                    float:left;
+                    margin-left:20px;
+                    margin-top:10px;
+                    }                
+                }
+            }
+        }       
+    }       
+}

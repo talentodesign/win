@@ -3,9 +3,12 @@
 /* Import style sheets, hiding from IE/Mac \*/
 /* End of import hide */
 /* GERAL */
+body {
+  background-color: #fff;
+}
 body .centraliza {
-  width: ;
-  margin: 0 auto;
+  width: 1000px;
+  margin: 0px auto;
 }
 body a,
 body a:active,
@@ -21,5 +24,108 @@ body .separator {
   clear: both;
 }
 /* HEADER */
+#header {
+  background: url(../images/bg_header.png);
+}
+#header #topo {
+  background: url(../images/bg_topo.png) no-repeat;
+  width: 1349px;
+  height: 334px;
+}
+#header #topo .logo_top {
+  float: left;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+#header #menu {
+  background-color: #ed3237;
+  height: 28px;
+  margin-top: -28px;
+}
+#header #menu #menu_topo ul {
+  width: 700px;
+  float: left;
+  margin-left: 160px;
+  margin-top: 8px;
+}
+#header #menu #menu_topo ul li {
+  display: inline;
+  margin-left: 20px;
+}
 /* FOOTER */
-/* CONTEUDO */
+#footer {
+  background-color: #970105;
+  height: 100px;
+}
+#footer #texto_footer #texto {
+  color: #fff;
+  width: 480px;
+  float: left;
+  margin-top: 25px;
+}
+#footer #direito #logo_telanto {
+  float: right;
+  margin-top: 25px;
+}
+/* HOME */
+#content {
+  height: 900px;
+}
+#content #lancamentos {
+  float: left;
+  margin-top: 10px;
+}
+#content .familia {
+  float: right;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+#content #noticias {
+  float: left;
+  margin-left: 50px;
+}
+#content #noticias .titulo {
+  font-size: 15px;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+#content #noticias hr {
+  width: 570px;
+  float: left;
+  margin-left: 63px;
+  margin-top: -10px;
+  height: 2px;
+  background: #ed3237;
+}
+#content #noticias #area_noticias ul {
+  list-style-type: none;
+}
+#content #noticias #area_noticias ul li {
+  display: inline;
+}
+#content #noticias #area_noticias ul li #img {
+  border: 3px solid ;
+  padding: 3px;
+  border-color: #b8b8b8;
+  width: 170px;
+  height: 91px;
+  float: left;
+  margin-top: 10px;
+}
+#content #noticias #area_noticias ul li #titulo {
+  color: #ed3237;
+  font-size: 20px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#content #noticias #area_noticias ul li #data {
+  float: left;
+  margin-left: -200px;
+  margin-top: 40px;
+}
+#content #noticias #area_noticias ul li #prev_noticias {
+  width: 390px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}

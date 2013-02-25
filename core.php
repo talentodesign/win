@@ -2,15 +2,15 @@
 // ==================================== DADOS INICIAIS DO SITE ==================================== 
 
 //Nome do Site
-$core_nome     = "";
+$core_nome     = "Win";
 //Descrição do Site
-$core_desc     ="";
+$core_desc     ="Engenharia";
 //Palavras-Chaves sobre o site, use virgulas para separa-las
-$core_keywords =""; 
+$core_keywords ="win, engenharia, belém, pará"; 
 //Pasta do projeto
-$core_pasta    ="";
+$core_pasta    ="win";
 //E-mail para recebimento das mensagens via site
-$core_email    =""; 
+$core_email    ="ed_batista.junior@hotmail.com"; 
 
 // ========================================== FUNÇÕES ==============================================
 if($core_nome == "" || $core_desc == "" || $core_keywords == "" || $core_pasta == "" || $core_email == ""){

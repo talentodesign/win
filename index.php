@@ -21,9 +21,29 @@
                 <div id="data"><p><i> Fevereiro 2013 </i></p></div> <br>                     
                 <div id="prev_noticias"><p>Estão á toda velocidade os novos invetimentos da Win Construtora.</p></div>                 
               </li>
+             <div id="separa"></div>
+              <li>       
+                <div id="img"><img src="<?php servidor(); ?>images/img_noticias.png" alt=""></div>      
+                <div id="titulo"><a href=""><p> Obras em andamentos </p></a></div><br>
+                <div id="data"><p><i> Fevereiro 2013 </i></p></div> <br>                     
+                <div id="prev_noticias"><p>Estão á toda velocidade os novos invetimentos da Win Construtora.</p></div>                 
+              </li>
+              <div id="separa"></div>
+              <li>       
+                <div id="img"><img src="<?php servidor(); ?>images/img_noticias.png" alt=""></div>      
+                <div id="titulo"><a href=""><p> Obras em andamentos </p></a></div><br>
+                <div id="data"><p><i> Fevereiro 2013 </i></p></div> <br>                     
+                <div id="prev_noticias"><p>Estão á toda velocidade os novos invetimentos da Win Construtora.</p></div> 
+              <div id="separa"></div>                
+              </li>
             </ul>
           </div> 
         </div>
+
+        <div id="boleto">
+          <a href=""><img src="<?php servidor(); ?>images/boleto_off.png" alt="" class="botao"></a>          
+        </div>
+        <div id="face"></div>
       </div>
     </div>
     <?php include("footer.php") ?>

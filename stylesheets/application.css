@@ -81,8 +81,9 @@ body .separator {
   margin-top: 20px;
 }
 #content #noticias {
-  float: left;
-  margin-left: 50px;
+  float: right;
+  width: 633px;
+  height: 464px;
 }
 #content #noticias .titulo {
   font-size: 15px;
@@ -98,6 +99,14 @@ body .separator {
 }
 #content #noticias #area_noticias ul {
   list-style-type: none;
+}
+#content #noticias #area_noticias ul #separa {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 633px;
+  height: 2px;
+  background-color: #ed3237;
 }
 #content #noticias #area_noticias ul li {
   display: inline;
@@ -128,4 +137,14 @@ body .separator {
   float: left;
   margin-left: 20px;
   margin-top: 10px;
+}
+#content #boleto {
+  float: left;
+  margin-left: 50px;
+}
+#content #face {
+  background: url(../images/bg_facebook.png) no-repeat;
+  float: right;
+  width: 357px;
+  height: 127px;
 }

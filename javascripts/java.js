@@ -20,8 +20,7 @@ $(document).ready(function(){
 		
 	/*---------------TWITTER-------------------*/
 
-	$("#twits").tweet();
-		
+	$("#twits").tweet();	
 		
 	/* ------------ CONTATO  AJAX ---------------------*/
 	$("#contato_enviando").on('hidden',function(){
@@ -32,10 +31,10 @@ $(document).ready(function(){
 	
 	$("#cont_bt").click(function(){
 		var nome=$("#nome").val();
-		var email=$("#email").val();
 		var tel=$("#tel").val();
+		var email=$("#email").val();		
 		var mens=$("#mens").val();
-		var dados="nome="+nome+"&email="+email+"&tel="+tel+"&mens="+mens;
+		var dados="nome="+nome+"&tel="+tel+"&email="+email+"&mens="+mens;
 		if(nome =='' || email =='' || tel =='' || mens==''){
 			$('#contato_vazio').modal("show");
 			}
@@ -44,11 +43,11 @@ $(document).ready(function(){
 			$('#contato_enviando').modal("show");
 			$.ajax({
 				type: "POST",
-				url: "../mail_contato.php",
+				url: "mail_contato.php",
 				data: dados,
 				cache: false,
 				success: function(){
-					$("#contato_enviando p").html('<center><img src="../images/email-send-icon.png" alt=""></center>').find('center').hide().fadeIn("slow");
+					$("#contato_enviando p").html('<center><img src="images/email-send-icon.png" alt=""></center>').find('center').hide().fadeIn("slow");
 					$("#contato_enviando h3").html('Mensagem Enviada');
 					$("input:text, textarea").val("");
 					setTimeout(some,2000);
@@ -62,4 +61,6 @@ $(document).ready(function(){
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
 	
+	/* ------------ NOTICIAS SCROLL-------------*/	
+	$("#conteudo").jScrollPane();
 });

@@ -7,8 +7,7 @@
     <div id="content" class="centraliza">
       <div id="lancamentos">          
           <a href=""><img src="images/lancamentos_off.png" alt="" class="botao"></a>
-      </div>      
-
+      </div>
       <img src="<?php servidor(); ?>images/familia.png" alt="" class="familia">
 
       <div id="noticias">

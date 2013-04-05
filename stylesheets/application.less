@@ -41,7 +41,7 @@ body{
             ul{    
                 width:970px;
                 float:left;
-                margin-left:40px;
+                text-align: center;
                 margin-top:8px;
                 li{
                     display:inline;  
@@ -76,6 +76,9 @@ body{
     #lancamentos{
         float:left;
         margin-top:10px;
+        img{
+            opacity: 0.5;
+        }
     }          
     .familia{
         float:right;
@@ -230,6 +233,7 @@ body{
         hr{
             height: 2px;
             background-color: #ed3237;
+            color:red;
         }
 
         ul{
@@ -352,16 +356,114 @@ body{
 /* LANCAMENTOS */
 
 #content_lancamentos{
-    height: 500px;
-    #breve{
-        background: url(../images/construcao.png);
+    height: 640px;
+
+    #lancamentos{
+        #modena{
+            width: 229px;
+            height:573px;
+            float: left;
+            margin-left: 380px;
+            margin-top: 30px;
+            
+        }        
+    } 
+}
+
+/* MÓDENA RESIDENCE */
+#content_modena{
+    height: 850px;
+    #top{
+        width : 1200px;
+        height: 520px;
         float: left;
-        margin-top: 100px;
-        width: 1000px;
-        height: 270px;
+        margin-left: -100px;
+        margin-top: 10px;
+        border: 1px solid red;
+        padding: 10px;
+
+        #image{
+            float: left;
+        }
+
+        #info{
+            float: left;
+            background-color: #c7181d;
+            margin-left: 20px;
+            width: 370px;
+            height: 521px;
+            #titulo{
+                background-color:#f4191f;
+                width: 370px;
+                height:50px;
+                float: left;
+                margin-top: 20px;
+                color:#fff;
+                text-align: center;
+                font-size: 20px;
+            }
+            #texto{
+                float: left;
+                padding:10px;
+                color: #fff;
+            }
+        }
+        #mapa{
+            float: left;
+            margin-left: 20px;
+        }
+        #localiza{
+            float: left;
+            background-color: #c7181d;
+            width: 450px;
+            height: 50px;
+            margin-left: 20px;
+            padding: 10px;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+        }
     }
 
-}
+        #area_images{             
+            float: left;
+            margin-left: -100px;
+            margin-top: 20px;
+            width:1220px;
+            height: 250px;
+            border: 1px solid red;
+            #area_conteiner{
+                margin-left: 15px;
+                width:1200px;
+                height: 300px;
+                #conteiner{
+                    ul{
+                        list-style-type:none;
+                        li{
+                            display: inline;
+                            img{
+                            border: 3px solid red;
+                            width:280px;
+                            margin-left:10px;
+                            }
+
+                        }
+                    }
+                    
+                }
+                #prev{
+                    float: right;
+                }
+                #next{
+                    float: left;
+                }
+                #area_mani{
+                    float:left;
+                    margin-top: 30px;
+                }
+            }                          
+        } 
+    }
 
 /* OBRAS EM ANDAMENTO */
 

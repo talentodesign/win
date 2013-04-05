@@ -2,9 +2,9 @@
 
 	    <div id="texto_footer" class="centraliza">	
 	    	<div id="texto">
-		        <p><?php $data=date("Y"); echo $data; ?> - WIN COSNTRUTORA E INCORPORADORA - Todos os direitos reservados.</p>
-				<p>Rua Domingos Marreiros, 49, Ed Village Empresarial Sala 911 - Umarizal</p>
-				<p>Fone: 55 91 3276 6559 / 8899 8489 - Belém • Pará • Brasil</p>
+		        <p><?php $data=date("Y"); echo $data; ?> - WIN CONSTRUTORA E INCORPORADORA - Todos os direitos reservados. <br/>
+				Tv Mauriti, 1438 – Pedreira – Belém <br/>
+				Fone: 3351 7600 / 3351 8060 </p>
 			</div>
   	    </div>
 

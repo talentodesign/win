@@ -5,7 +5,7 @@
   </head>
   <body>
     <div id="content_empresa" class="centraliza">          
-      <div id="img_empresa"></div> 
+      <!-- <div id="img_empresa"></div> 
       <p class="title_empresa">Empresa</p>    
       <div id="separa"></div>  
 
@@ -22,9 +22,8 @@
 
         <p>É desta forma que a Atlântica Construtora está determinada a crescer e a fortalecer o seu poder de competitividade no mercado.</p>
 
-        <div id="separa"></div>  
-            
-      </div> 
+        <div id="separa"></div>             
+      </div>  -->
     </div>
     <?php include("footer.php") ?>
   </body>

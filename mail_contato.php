@@ -25,14 +25,14 @@
 
        $mail = new PHPMailer();
        $mail->IsSMTP();
-     $mail->Host = 'smtp.googlemail.com';
+       $mail->Host = 'smtp.googlemail.com';
        $mail->SMTPAuth = true;
        $mail->Port = 587;
-     $mail->SMTPSecure = 'tls';
+       $mail->SMTPSecure = 'tls';
        $mail->Username = 'noreplay.talentodesign@gmail.com';
        $mail->Password = 'designer2802';
        $mail->SetFrom('noreply.talentodesign@gmail.com', 'Contato via Site');
-       $mail->AddAddress('ed_batista.junior@hotmail.com', 'Contato Bellos Modeladores');
+       $mail->AddAddress('contato@winincorporadora.com.br', 'Contato Bellos Modeladores');
        $mail->Subject = 'Mensagem Via Contato do Site';
 
        $body = "

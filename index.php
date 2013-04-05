@@ -6,7 +6,7 @@
   <body>
     <div id="content" class="centraliza">
       <div id="lancamentos">          
-          <a href=""><img src="images/lancamentos_off.png" alt="" class="botao"></a>
+          <a href="<?php servidor(); ?>lancamentos-modena"><img src="images/lancamentos_off.png" alt="" ></a>
       </div>
       <img src="<?php servidor(); ?>images/familia.png" alt="" class="familia">
 
@@ -33,14 +33,14 @@
                 <div id="titulo"><a href=""><p> Obras em andamentos </p></a></div><br>
                 <div id="data"><p><i> Fevereiro 2013 </i></p></div> <br>                     
                 <div id="prev_noticias"><p>Estão á toda velocidade os novos invetimentos da Win Construtora.</p></div> 
-              <div id="separa"></div>                
+              <div id="separa"></div>              
               </li>
             </ul>
           </div> 
         </div>
 
         <div id="boleto">
-          <a href=""><img src="<?php servidor(); ?>images/boleto_off.png" alt="" class="botao"></a>          
+          <a href="http://www.biossistemas.com/clientes/win/boleta_2v/" target="_blank"><img src="<?php servidor(); ?>images/boleto_off.png" alt="" class="botao"></a>          
         </div>
         <div id="face"></div>
       </div>

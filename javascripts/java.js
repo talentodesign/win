@@ -61,6 +61,40 @@ $(document).ready(function(){
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
 	
+
+	/*------------- CAROUSELLITE ---------------------*/  
+
+    $(window).load( function(){	
+	$("#conteiner").jCarouselLite({
+    	btnNext: "#next",
+    	btnPrev: "#prev",
+    	vertical: false,
+		speed:3000,
+		auto: 2000,
+		visible: 4,
+		scroll: 1,		
+		mouseWheel: true
+		});
+
+	/* ------------ GALERIAS ---------------------*/	
+		$("#conteiner a").fancybox({
+			autoScale	:true
+		});
+	});
+
+	$("#lancamentos img").hover(
+		function(){
+			$(this).stop().animate({opacity:1},"slow");
+		},
+		function(){
+			$(this).stop().animate({opacity:0.7},"slow");
+		}
+	);
+
 	/* ------------ NOTICIAS SCROLL-------------*/	
-	$("#conteudo").jScrollPane();
-});
+	$("#conteudo, #info").jScrollPane();
+	});
+
+
+
+	

@@ -25,7 +25,9 @@
       </script>
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/boot_modal/css/bootstrap.css" media="all">
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>stylesheets/jquery.tweet.css" media="all">
-      <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/jquery.jscrollpane.css" media="all">
+      <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/source/jquery.fancybox.css" media="all">
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/source/jquery.fancybox.pack.js"></script>
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jcarousellite_1.0.1.min.js"></script>
       <script type="text/javascripts"src="<?php servidor(); ?>javascripts/jquery.jscrollpane.min.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/boot_modal/js/bootstrap.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.tweet.js"></script>

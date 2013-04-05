@@ -5,25 +5,28 @@
   </head>
   <body>
     <div id="content_empresa" class="centraliza">          
-      <!-- <div id="img_empresa"></div> 
+      <div id="img_empresa"></div> 
       <p class="title_empresa">Empresa</p>    
       <div id="separa"></div>  
 
       <div id="area_texto">
-        <p>A Atlântica Construtora é uma empresa de engenharia e construção civil de imóveis residenciais e comerciais de fino acabamento.</p>
-
-        <p>Constituída no intuito de seguir uma trajetória empresarial forte e diferenciada, baseada em princípios, valores e compromissos extremamente identificados com o futuro da organização e com as necessidades e anseios do mercado.</p>
-
-        <p>A missão da Atlântica Construtora é conceber, comercializar e construir edificações com conforto e responsabilidade para nossos clientes.</p>
-
-        <p>A Atlântica entende que o desenvolvimento da qualidade é uma questão complexa, mas acreditamos que é fator importante para tornar a empresa competitiva e consolidar um espaço de empresa capaz e competente.</p>
-
-        <p>A Nossa empresa está consciente do seu papel e sabe ainda que pode contar com a colaboração do seu quadro de pessoal, onde cada um tem importância fundamental. Este passo é muito importante na busca da excelência empresarial e na construção de um ambiente de trabalho de qualidade, sob os aspectos físicos e humanos.</p>
-
-        <p>É desta forma que a Atlântica Construtora está determinada a crescer e a fortalecer o seu poder de competitividade no mercado.</p>
-
+        <p>
+          Win Construtora e Incorporadora é o resultado da união de três histórias de sucesso. É uma empresa constituída em 2013, mas que já nasceu com muitos anos de experiência acumulada no segmento da construção imobiliária e com a tradição de confiança das acionistas que participam do seu controle:
+        </p>
+        <p>
+          <strong>Atlântica Construtora:</strong><br> 
+          Desde 2003 a Atlântica Construtora realiza obras de engenharia e construção civil de imóveis residenciais e comerciais de fino acabamento. Com trajetória empresarial forte e diferenciada, baseada em princípios, valores e compromissos extremamente identificados com o futuro da organização e com as necessidades e anseios do mercado, a missão da Atlântica Construtora é conceber, comercializar e construir edificações com conforto e responsabilidade para os seus clientes. 
+        </p>
+        <p>
+          <strong>Costa Brava Participações:</strong><br>
+          Investindo em projetos ousados e diferenciados para o mercado imobiliário paraense, em pouco mais de dois anos a Costa Brava Participações já imprimiu a sua marca em obras comprovadamente inovadoras, como, charmosos Street Shoppings, prédios comerciais e residenciais de alto padrão de qualidade. Costa Brava Participações é uma empresa que surgiu a partir da necessidade de um mercado ávido por equipamentos imobiliários de qualidade e preparados para os novos tempos. A modernidade faz parte do seu DNA. 
+        </p>
+        <p>
+          <strong>Solar Engenharia:</strong> <br>
+          Desde 1999, a Solar Engenharia exerce um papel destacado na construção civil do Pará, entregando com pontualidade e excepcional qualidade centenas de unidades habitacionais. A Solar Engenharia, utilizando-se de equipamentos, maquinários e ferramentas próprias, incentiva e absorve mão de obra local - contribuindo para a formação de milhares de empregos diretos e indiretos -, gera progresso e cria uma nova perspectiva no futuro da construção civil.
+        </p>
         <div id="separa"></div>             
-      </div>  -->
+      </div>
     </div>
     <?php include("footer.php") ?>
   </body>

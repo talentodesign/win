@@ -277,6 +277,14 @@ body .separator {
   height: 470px;
   margin-top: 15px;
 }
+#content_noticias #coluna_principal #area_noticias #conteudo .modena-img {
+  padding: 5px;
+}
+#content_noticias #coluna_principal #area_noticias #conteudo .modena-img img {
+  width: 268px;
+  border: 2px solid red;
+  padding: 1px;
+}
 #content_noticias #coluna_principal #area_noticias #conteudo p {
   margin-top: 10px;
   font-size: 14px;
@@ -284,6 +292,7 @@ body .separator {
 }
 #voltar {
   float: right;
+  margin-right: 40px;
   margin-top: 50px;
 }
 /* CONTATO */
@@ -460,6 +469,16 @@ body .separator {
   width: auto;
   height: 200px;
   border: 1px solid red;
+}
+#content_acompanhe .title {
+  text-align: center;
+  margin-top: 30px;
+}
+#content_acompanhe .title h2 {
+  color: #ed3237;
+}
+#content_acompanhe .images-modena {
+  text-align: center;
 }
 /* ASSOCIADOS*/
 #content_associados {

@@ -75,12 +75,12 @@ $(document).ready(function(){
 		scroll: 1,		
 		mouseWheel: true
 		});
-
-	/* ------------ GALERIAS ---------------------*/	
-		$("#conteiner a").fancybox({
-			autoScale	:true
-		});
-	});
+		/* ------------ GALERIAS ---------------------*/	
+	$("#conteiner a, .images-modena a").fancybox({
+		autoScale	:true
+	});		
+	
+});
 
 	$("#lancamentos img").hover(
 		function(){
@@ -94,6 +94,8 @@ $(document).ready(function(){
 	/* ------------ NOTICIAS SCROLL-------------*/	
 	$("#conteudo, #info").jScrollPane();
 	});
+
+
 
 
 

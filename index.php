@@ -17,7 +17,7 @@
               <li>       
                 <div id="img"><img src="<?php servidor(); ?>images/img_noticias.png" alt=""></div>      
                 <div id="titulo"><a href=""><p> Lançamento Módena </p></a></div><br>
-                <div id="data"><p><i> Abril 2013 </i></p></div>
+                <div id="data"><p><i>Abril 2013</i></p></div>
                  <br>                     
                 <div id="prev_noticias"><p>Módena Residence é um conceito moderno de viver, que agrega a praticidade...</p></div>                 
               </li>
@@ -25,14 +25,14 @@
               <li>       
                 <div id="img"><img src="<?php servidor(); ?>images/img_noticias.png" alt=""></div>      
                 <div id="titulo"><a href=""><p> Estréia da Win Construtora </p></a></div><br>
-                <div id="data"><p><i> Março 2013 </i></p></div> <br>                     
+                <div id="data"><p><i>Março 2013</i></p></div> <br>                     
                 <div id="prev_noticias"><p>Na tarde do último dia 15 de março, a Win Construtora e Incorporadora...</p></div>                 
               </li>
               <div id="separa"></div>
               <li>       
                 <div id="img"><img src="<?php servidor(); ?>images/img_noticias.png" alt=""></div>      
                 <div id="titulo"><a href=""><p> Obras em andamentos </p></a></div><br>
-                <div id="data"><p><i> Fevereiro 2013 </i></p></div> <br>                     
+                <div id="data"><p><i>Fevereiro 2013</i></p></div> <br>                     
                 <div id="prev_noticias"><p>Estão á toda velocidade os novos invetimentos da Win Construtora.</p></div> 
               <div id="separa"></div>              
               </li>

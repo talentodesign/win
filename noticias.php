@@ -49,7 +49,7 @@
           <div id="titlo_do_texto">
             <p>Lançamento Módena</p>
           </div>
-            <div id="conteudo">            
+            <div id="conteudo">          
               <p>
                 Módena Residence é um conceito moderno de viver, que agrega a praticidade da vida moderna à tranquilidade e conforto que pareciam estar esquecidos em algum lugar do passado. Módena Residence é uma nova experiência de vida, em localização privilegiada, cercado de todos os equipamentos urbanos necessários para você e sua família: de bancos à supermercados, de salões de beleza à academias de ginástica e laboratórios de análises clínicas. Tudo isso, há alguns passos do seu sonho, exatamente como na província italiana que serviu de inspiração e que brindou o mundo com a modernidade da marca Ferrari e a beleza de um canto de Pavarotti, por exemplo. Viver no Módena Residence vai ser viver feliz. Pra sempre!
               </p>          
@@ -65,7 +65,11 @@
           <div id="titlo_do_texto">
             <p>Estréia da Win Construtora</p>
           </div>
-            <div id="conteudo">            
+            <div id="conteudo">
+              <div class="modena-img">
+                <img src="<?php servidor(); ?>images/noticias/Lancamento.jpg" alt="">
+                <img src="<?php servidor(); ?>images/noticias/Lancamento-02.jpg" alt="">
+              </div>          
               <p>
                 Na tarde do último dia 15 de março, a Win Construtora e Incorporadora realizou o briefing de lançamento do seu primeiro empreendimento imobiliário, o Módena Residence, que está sendo construído no bairro da Pedreira, em localização privilegiada: Tv. Mauriti, entre Av. Marquês de Herval e Av. Pedro Miranda. 
               </p>

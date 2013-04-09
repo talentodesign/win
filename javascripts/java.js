@@ -75,27 +75,25 @@ $(document).ready(function(){
 		scroll: 1,		
 		mouseWheel: true
 		});
-		/* ------------ GALERIAS ---------------------*/	
-	$("#conteiner a, .images-modena a").fancybox({
-		autoScale	:true
-	});		
-	
-});
+
+	/* ------------ GALERIAS ---------------------*/	
+		$("#conteiner a").fancybox({
+			autoScale	:true
+		});
+	});
 
 	$("#lancamentos img").hover(
 		function(){
 			$(this).stop().animate({opacity:1},"slow");
 		},
 		function(){
-			$(this).stop().animate({opacity:0.7},"slow");
+			$(this).stop().animate({opacity:0.9},"slow");
 		}
 	);
 
 	/* ------------ NOTICIAS SCROLL-------------*/	
 	$("#conteudo, #info").jScrollPane();
 	});
-
-
 
 
 

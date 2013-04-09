@@ -15,27 +15,19 @@
         <div id="area_noticias">
             <ul>         
               <li>       
-                <div id="img"><img src="<?php servidor(); ?>images/img_noticias.png" alt=""></div>      
-                <div id="titulo"><a href=""><p> Lançamento Módena </p></a></div><br>
-                <div id="data"><p><i>Abril 2013</i></p></div>
-                 <br>                     
+                <div id="img"><img src="<?php servidor(); ?>images/noticias/prev-home/andamento.jpg" alt=""></div>      
+                <div id="titulo"><a href="noticias/pg/05-04"><p>MÓDENA</p></a></div>
+                <div id="data"><p><i>05/04</i></p></div>
                 <div id="prev_noticias"><p>Módena Residence é um conceito moderno de viver, que agrega a praticidade...</p></div>                 
               </li>
              <div id="separa"></div>
               <li>       
-                <div id="img"><img src="<?php servidor(); ?>images/img_noticias.png" alt=""></div>      
-                <div id="titulo"><a href=""><p> Estréia da Win Construtora </p></a></div><br>
-                <div id="data"><p><i>Março 2013</i></p></div> <br>                     
+                <div id="img"><img src="<?php servidor(); ?>images/noticias/prev-home/lancamento-modena.jpg" alt=""></div>      
+                <div id="titulo"><a href="noticias/pg/15-03"><p> LANÇAMENTO DO EMPREENDIMENTO MÓDENA RESIDENCE </p></a></div>
+                <div class="modena-residence"><p><i>15/03</i></p></div>                  
                 <div id="prev_noticias"><p>Na tarde do último dia 15 de março, a Win Construtora e Incorporadora...</p></div>                 
               </li>
               <div id="separa"></div>
-              <li>       
-                <div id="img"><img src="<?php servidor(); ?>images/img_noticias.png" alt=""></div>      
-                <div id="titulo"><a href=""><p> Obras em andamentos </p></a></div><br>
-                <div id="data"><p><i>Fevereiro 2013</i></p></div> <br>                     
-                <div id="prev_noticias"><p>Estão á toda velocidade os novos invetimentos da Win Construtora.</p></div> 
-              <div id="separa"></div>              
-              </li>
             </ul>
           </div> 
         </div>

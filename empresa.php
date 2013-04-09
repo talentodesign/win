@@ -23,7 +23,7 @@
         </p>
         <p>
           <strong>Solar Engenharia:</strong> <br>
-          Desde 1999, a Solar Engenharia exerce um papel destacado na construção civil do Pará, entregando com pontualidade e excepcional qualidade centenas de unidades habitacionais. A Solar Engenharia, utilizando-se de equipamentos, maquinários e ferramentas próprias, incentiva e absorve mão de obra local - contribuindo para a formação de milhares de empregos diretos e indiretos -, gera progresso e cria uma nova perspectiva no futuro da construção civil.
+          Desde 1999, a Solar construção e incorporação exerce um papel destacado na construção civil do Pará, entregando com pontualidade e excepcional qualidade centenas de unidades habitacionais. A Solar construção e incorporação, utilizando-se de equipamentos, maquinários e ferramentas próprias, incentiva e absorve mão de obra local - contribuindo para a formação de milhares de empregos diretos e indiretos -, gera progresso e cria uma nova perspectiva no futuro da construção civil.
         </p>
         <div id="separa"></div>             
       </div>

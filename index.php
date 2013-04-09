@@ -43,7 +43,11 @@
         <div id="boleto">
           <a href="http://www.biossistemas.com/clientes/win/boleta_2v/" target="_blank"><img src="<?php servidor(); ?>images/boleto_off.png" alt="" class="botao"></a>          
         </div>
-        <div id="face"></div>
+        <div id="face">
+          <a href=""><img src="<?php servidor(); ?>images/bt_twitter_off.png" alt="" class="botao"></a>
+          <a href=""><img src="<?php servidor(); ?>images/bt_face_off.png" alt="" class="botao"></a>
+          <a href=""><img src="<?php servidor(); ?>images/bt_youtube_off.png" alt="" class="botao"></a>
+        </div>
       </div>
     </div>
     <?php include("footer.php") ?>

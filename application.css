@@ -1,4 +1,3 @@
-/* CSS crunched with Crunch - http://crunchapp.net/ */
 @import url("reset.css");
 /* Import style sheets, hiding from IE/Mac \*/
 /* End of import hide */
@@ -153,9 +152,8 @@ body .separator {
 }
 #content #face img {
   float: left;
-  margin-top: 40px;
-  margin-left: 5px;
-  padding-left: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 /* QUEM SOMOS */
 #content_empresa {
@@ -361,7 +359,7 @@ body .separator {
   margin-left: 380px;
   margin-top: 30px;
 }
-/* MÃ“DENA RESIDENCE */
+/* MÓDENA RESIDENCE */
 #content_modena {
   height: 850px;
 }
